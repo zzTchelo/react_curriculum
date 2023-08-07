@@ -1,6 +1,6 @@
 .navbar{
     list-style-type: none;
-    display: inline-flex;
+    display: flex;
     justify-content: space-evenly;
     align-items: center;
     width: 1200px;
