@@ -1,5 +1,5 @@
 import './profile.css'
-const profile_pic = require('../assets/profile_pic.jpg');
+const profile_pic = require('../../assets/profile_pic.jpg');
 
 
 const Profile = () => {
@@ -8,7 +8,6 @@ const Profile = () => {
             <img src={profile_pic} alt="Profile Pic" />
             <label htmlFor="Profile" className="profile_name">João Marcelo Silva Santos</label>
         </div>
-
     )
 }
 

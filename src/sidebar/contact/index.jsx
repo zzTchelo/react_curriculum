@@ -1,11 +1,11 @@
 import './contact.css'
 import React from 'react'
 
-const linkedinIcon = require('../assets/icons8-linkedin-144.png')
-const instagramIcon = require('../assets/icons8-instagram-96.png')
-const outlookIcon = require('../assets/icons8-ms-outlook-144.png')
-const githubIcon = require('../assets/icons8-github-96.png')
-const youtubeIcon = require('../assets/icons8-reproduzir-youtube-94.png')
+const linkedinIcon = require('../../assets/icons8-linkedin-144.png')
+const instagramIcon = require('../../assets/icons8-instagram-96.png')
+const outlookIcon = require('../../assets/icons8-ms-outlook-144.png')
+const githubIcon = require('../../assets/icons8-github-96.png')
+const youtubeIcon = require('../../assets/icons8-reproduzir-youtube-94.png')
 
 const Contacts = () => {
     return (

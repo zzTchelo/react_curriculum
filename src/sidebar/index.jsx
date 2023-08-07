@@ -1,5 +1,5 @@
-import Contacts from '../contact'
-import Profile from '../profile'
+import Contacts from './contact'
+import Profile from './profile'
 import './sidebar.css'
 
 const Sidebar = () => {
