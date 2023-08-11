@@ -2,7 +2,7 @@ const formacoes = [{
     curso : 'Análise e Desenvolvimento de Sistemas',
     faculdade : 'Fatec de Ourinhos',
     cidade : 'Ourinhos, São Paulo',
-    ano : '2023 - Atual',
+    ano : '2023 - Atualmente',
     conteudo : ''
   },
   {

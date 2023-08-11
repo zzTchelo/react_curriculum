@@ -1,0 +1,67 @@
+.experiencia{
+    margin: 32px 0;
+    padding: 4px 0px 8px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 90%;
+
+    margin-left: auto;
+    margin-right: auto;
+    
+    border-left: 1px solid black;
+}
+
+.ano{
+    padding: 0px 30px;
+    text-align: end;
+    font-size: 32px;
+    display: block;
+    width: 40%;
+}
+
+.cidade{
+    padding: 0px 30px;
+    text-align: end;
+    font-size: 32px;
+    width: 40%;
+}
+
+.cargo{
+    font-weight: bolder;
+    text-align: start;
+    padding: 0px 30px;
+    font-size: 32px;
+    width: 50%;
+}
+
+.empresa{
+    padding: 0px 30px;
+    text-align: start;
+    font-size: 32px;
+    display: block;
+    width: 50%;
+}
+
+.sub-title{
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.tecnologias{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+    padding: 0px 30px;
+}
+
+.tecnologia{
+    display: inline-flex;
+    align-content: center;
+    align-items: center;
+    background-color: rgb(231, 231, 231);
+    padding: 8px;
+    font-size: 20px;
+    /* border: 1px solid red; */
+}

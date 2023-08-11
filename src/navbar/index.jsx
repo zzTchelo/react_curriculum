@@ -1,22 +1,13 @@
 import './navbar.css'
-import { Link, NavLink } from 'react-router-dom'
+import { Link } from 'react-router-dom'
+import rotas from '../dados/rotas'
 
 const Navbar = () => {
     return (
         <ul className='navbar'>
-            <li className='item-navbar'>
-                <Link to='/Formacoes'>
-                    Formações
-                </Link>
-            </li>
-            <li className='item-navbar'>
-                <Link to='/Experiencias'>
-                    Experiências
-                </Link>
-            </li>
-            <li className='item-navbar'>Certificados</li>
-            <li className='item-navbar'>Habilidades</li>
-            <li className='item-navbar'>Projetos</li>
+            {rotas.map(rota =>{
+                return <li className='item-navbar'><Link to={rota.link}>{rota.label}</Link></li>
+            })}
         </ul>
     )
 }

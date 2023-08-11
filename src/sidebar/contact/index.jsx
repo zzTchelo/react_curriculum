@@ -1,9 +1,21 @@
 import './contact.css'
 import React from 'react'
+import contatos from '../../dados/contatos'
 
-const Contacts = (props) => {
+const target = '_blank'
+
+const Contacts = () => {
     return (
-            <li className="contact"><img src={props.icon} alt="Icone_LinkedIn" />{props.subtitle}</li>
+        <ul className='contacts'>
+            {contatos.map(contato =>
+                <li className="contact">
+                    <a href={contato.link} target={target} rel="noreferrer">
+                        <img src={contato.icon} alt="Icone_LinkedIn" />{contato.subtitle}
+                    </a>
+                </li>
+                )
+            }
+        </ul>
     )
 }
 

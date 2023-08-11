@@ -1,29 +1,32 @@
 import './experiencia.css'
+import experiencias from '../../dados/experiencias';
 
-const Experiencia = (props) => {
+const Experiencia = () => {
     return (
-        <div className=''>
-        <span className=''>
-            {props.empresa}
-        </span>
-        <span className=''>
-            {props.ano}
-        </span>
-        <span className=''>
-            {props.cargo}
-        </span>
-        <span className=''>
-            {props.cidade}
-        </span>
-        <ul className=''>
-            Tecnologias:
-            {
-                props.tecnologias.map(tecnologia => {
-                    return <li className=''>{tecnologia}</li>
-                })
-            }
-        </ul>
-    </div>
+        experiencias.map(experiencia =>
+            <div className='experiencia'>
+                <span className='cargo'>
+                    {experiencia.cargo}
+                </span>
+                <span className='cidade'>
+                    {experiencia.cidade}
+                </span>
+                <span className='empresa'>
+                    {experiencia.empresa}
+                </span>
+                <span className='ano'>
+                    {experiencia.ano}
+                </span>
+                <ul className='tecnologias'>
+                    <span className="sub-title">Habilidades:</span>
+                    {
+                        experiencia.habilidades.map(tecnologia => {
+                            return <li className='tecnologia'>{tecnologia}</li>
+                        })
+                    }
+                </ul>
+            </div>
+        )
     )
 }
 
