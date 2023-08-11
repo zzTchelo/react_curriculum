@@ -1,5 +1,5 @@
 .experiencia{
-    margin: 32px 0;
+    margin: 32px auto;
     padding: 4px 0px 8px 0px;
     display: flex;
     flex-wrap: wrap;
@@ -54,6 +54,7 @@
     align-items: center;
     gap: 20px;
     padding: 0px 30px;
+    width: 100%;
 }
 
 .tecnologia{

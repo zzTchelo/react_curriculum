@@ -9,6 +9,11 @@ const Router = () => {
     return (
         <Routes>
             <Route 
+                path='/'
+                exact element= {<Formacao />} 
+            />
+
+            <Route 
                 path='/Formacoes'
                 element= {<Formacao />} 
             />

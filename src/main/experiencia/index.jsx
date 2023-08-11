@@ -18,7 +18,7 @@ const Experiencia = () => {
                     {experiencia.ano}
                 </span>
                 <ul className='tecnologias'>
-                    <span className="sub-title">Habilidades:</span>
+                    <span className="sub-title">Competências:</span>
                     {
                         experiencia.habilidades.map(tecnologia => {
                             return <li className='tecnologia'>{tecnologia}</li>

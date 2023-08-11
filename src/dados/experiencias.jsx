@@ -8,7 +8,8 @@ const experiencias = [
             'Atendimento ao cliente',
             'Visual Basic 6.0',
             'MySQL/MariaDB'
-        ]
+        ],
+        resumo : 'Realizo alterações no código (Visual Basic 6.0) e correções de erros no software disponibilizado pela empresa para seus clientes, junto ao atendimento de novos clientes, realizando o tratamento dos dados e otimização de Queries (SQL) já utilizados pela empresa de maneira a qual se adequem ao banco de dados e ao sistema contratado pelo cliente.'
     },
     {
         empresa : 'SmartInovações Tecnológicas',
@@ -19,7 +20,8 @@ const experiencias = [
             'Atendimento ao cliente',
             'Visual Basic 6.0',
             'MySQL/MariaDB'
-        ]
+        ],
+        resumo : 'Recebi treinamento para lidar com demandas de alterações ou correções referentes ao software da empresa, junto ao tratamento de dados utilizando códigos SQL.'
     },
     {
         empresa : 'Prefeitura Municipal de Canitar',
@@ -27,10 +29,11 @@ const experiencias = [
         cidade : 'Canitar, São Paulo',
         ano : '05/2021 - 01/2022',
         habilidades : [
-            'Atendimento ao cliente',
+            'Atendimento ao público',
             'Manutenção de computadores',
             'Pacote Office'
-        ]
+        ],
+        resumo : 'Era responsável pelo auxílio na utilização de softwares, criação de documentos e planilhas utilizando o Pacote Office, assim como a manutenção de equipamentos e configuração de redes de impressoras dentro do ambiente do escritório.'
     }
 ]
 
