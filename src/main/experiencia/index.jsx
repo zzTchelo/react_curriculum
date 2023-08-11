@@ -25,6 +25,10 @@ const Experiencia = () => {
                         })
                     }
                 </ul>
+                <p className='resumo-text'>
+                    <span className='resumo-title'>Resumo: </span> 
+                    {experiencia.resumo}
+                </p>
             </div>
         )
     )

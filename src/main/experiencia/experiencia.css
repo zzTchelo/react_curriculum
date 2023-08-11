@@ -66,3 +66,13 @@
     font-size: 20px;
     /* border: 1px solid red; */
 }
+
+.resumo-title{
+
+}
+
+.resumo-text{
+    font-size: 18px;
+    text-align: justify;
+    margin-left: 30px;
+}

@@ -7,7 +7,8 @@ const experiencias = [
         habilidades : [
             'Atendimento ao cliente',
             'Visual Basic 6.0',
-            'MySQL/MariaDB'
+            'MySQL/MariaDB',
+            'C#'
         ],
         resumo : 'Realizo alterações no código (Visual Basic 6.0) e correções de erros no software disponibilizado pela empresa para seus clientes, junto ao atendimento de novos clientes, realizando o tratamento dos dados e otimização de Queries (SQL) já utilizados pela empresa de maneira a qual se adequem ao banco de dados e ao sistema contratado pelo cliente.'
     },
