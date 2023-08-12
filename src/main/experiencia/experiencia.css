@@ -17,14 +17,14 @@
     text-align: end;
     font-size: 32px;
     display: block;
-    width: 40%;
+    width: 30%;
 }
 
 .cidade{
     padding: 0px 30px;
     text-align: end;
     font-size: 32px;
-    width: 40%;
+    width: 30%;
 }
 
 .cargo{
@@ -41,11 +41,6 @@
     font-size: 32px;
     display: block;
     width: 50%;
-}
-
-.sub-title{
-    font-size: 24px;
-    font-weight: 900;
 }
 
 .tecnologias{

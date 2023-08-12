@@ -17,6 +17,12 @@ const Formacao = () => {
                 <span className='cidade'>
                     {formacao.cidade}
                 </span>
+                <ul className="conteudos">
+                    <span className="sub-title">Aprendizado:</span>
+                    {formacao.conteudos.map(conteudo =>{
+                        return <li className="conteudo">{conteudo}</li>
+                    })}
+                </ul>
             </div>
         )
     )

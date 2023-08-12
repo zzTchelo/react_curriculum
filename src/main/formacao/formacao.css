@@ -14,6 +14,7 @@
 }
 
 .curso{
+    font-weight: bolder;
     padding: 0px 30px;
     text-align: start;
     font-size: 32px;
@@ -26,7 +27,7 @@
     text-align: end;
     font-size: 32px;
     display: block;
-    width: 40%;
+    width: 30%;
 }
 
 .cidade{
@@ -37,9 +38,27 @@
 }
 
 .faculdade{
-    font-weight: bolder;
     text-align: start;
     padding: 0px 30px;
     font-size: 32px;
     width: 50%;
+}
+
+.conteudos{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+    padding: 0px 30px;
+    width: 100%;
+}
+
+.conteudo{
+    display: inline-flex;
+    align-content: center;
+    align-items: center;
+    background-color: rgb(231, 231, 231);
+    padding: 8px;
+    font-size: 20px;
+    /* border: 1px solid red; */
 }
