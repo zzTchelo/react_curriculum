@@ -1,16 +1,21 @@
+p{
+    margin: 0;
+}
+
 .projeto-bloco{
     display: block;
     width: 90%;
-    margin: 16px auto;
+    margin: 32px auto;
 }
 
 .projeto{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     width: 100%;
     padding: 8px;
-    border: 1px solid red;
+    margin: 32px 0px;
 }
 
 .imagem img {
@@ -37,8 +42,16 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    gap: 8px;
-    border: 1px solid red; 
+    gap: 16px;
+    width: 55%;
+}
+
+.tecnologias-projeto{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
 .tecnologia-projeto{
@@ -69,4 +82,8 @@
 
 .descricao .descricao-projeto, .tecnologias-projeto, .link-projeto{
     width: 100%;
+}
+
+.link-projeto a{
+    margin-left: 8px;
 }

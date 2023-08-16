@@ -14,11 +14,12 @@ const Projetos = () => {
                             </div>
                             <ul className='tecnologias-projeto'>
                                 Tecnologias:
-                                    <li className='tecnologia-projeto'>{projeto.tecnologias}</li>
+                                {
+                                    projeto.tecnologias.map(tecnologia =>
+                                        <li className='tecnologia-projeto'>{tecnologia}</li>
+                                    )
+                                }
                             </ul>
-                            
-                            
-                            
                             <p className='descricao-projeto'><label htmlFor="">Descrição:</label><span>{projeto.descricao}</span></p>
                             <p className='link-projeto'>Disponível em:<a href={projeto.link}>{projeto.link}</a></p>
                         </div>

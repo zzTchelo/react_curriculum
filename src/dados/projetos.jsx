@@ -6,10 +6,9 @@ const projetos = [
         descricao : 'Um pequeno projeto utilizando a API pública PokeApi, onde reorganizei os dados utilizando o framework Angular, fazendo uso de recursos da ferramenta, como diretivas, bidings, também utilizando local storage e customizações disponibilizadas pelo Angular Material.',
         ano : '2022',
         tecnologias : [
-            'Angular'
+            'Angular',
         ]
     },
-
 ]
 
 export default projetos;
