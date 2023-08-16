@@ -28,6 +28,7 @@ p{
     width: 60%;
     margin: 0px auto;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
