@@ -1,0 +1,41 @@
+.main-cert{
+    width: 80%;
+    margin: 100px auto;
+}
+
+.certificados{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 16px auto;
+    padding: 8px;
+    font-size: 20px;
+}
+
+.certificado{
+    display: flex;
+    align-items: center;
+    width: 400px;
+    padding: 8px;
+    font-weight: 700;
+}
+
+.titulo{
+    display: flex;
+    align-items: center;
+    width: 300px;
+    padding: 8px;
+    color: rgb(156, 10, 40);
+    font-weight: 700;
+}
+
+.ano_certificado{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    width: 80px;
+    border-radius: 20px;
+    background-color: lightgray;
+    padding: 8px;
+    font-weight: bolder;
+}

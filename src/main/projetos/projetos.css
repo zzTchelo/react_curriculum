@@ -1,0 +1,72 @@
+.projeto-bloco{
+    display: block;
+    width: 90%;
+    margin: 16px auto;
+}
+
+.projeto{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 8px;
+    border: 1px solid red;
+}
+
+.imagem img {
+    width: 500px;
+    border: 5px solid black;
+    box-shadow: 5px 5px 5px rgb(158, 158, 158);
+}
+
+.head-projeto{
+    width: 60%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.head-projeto p{
+    padding: 8px;
+    border-bottom: 1px solid black;  
+    font-size: 20px;
+}
+
+.descricao{
+    padding: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 8px;
+    border: 1px solid red; 
+}
+
+.tecnologia-projeto{
+    display: inline-flex;
+    align-content: center;
+    align-items: center;
+    background-color: rgb(231, 231, 231);
+    padding: 8px;
+    font-size: 20px;
+}
+
+.ano-projeto, .titulo-projeto{
+    font-weight: 700;
+    margin-left: 8px;
+}
+
+.descricao-projeto {
+    text-align: justify;
+}
+
+.descricao-projeto label {
+    font-weight: 700;
+}
+
+.descricao-projeto span {
+    margin-left: 8px;
+}
+
+.descricao .descricao-projeto, .tecnologias-projeto, .link-projeto{
+    width: 100%;
+}
