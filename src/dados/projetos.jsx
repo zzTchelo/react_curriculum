@@ -7,7 +7,8 @@ const projetos = [
         ano : '2023',
         tecnologias : [
             'Angular',
-            'Json Server'
+            'Json Server',
+            'HTTP Request'
         ]
     },
     {
