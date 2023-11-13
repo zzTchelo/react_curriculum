@@ -3,7 +3,7 @@ const contatos = [
         name : 'linkedin',
         icon : require('../assets/contatos/icons8-linkedin-144.png'),
         subtitle : 'João Marcelo Silva Santos',
-        link : 'https://www.linkedin.com/in/joao-marcelo-silva-santos/'
+        link : 'https://www.linkedin.com/in/jo%C3%A3o-marcelo-silva-santos-70449129b/'
     },
     {
         name : 'github',
